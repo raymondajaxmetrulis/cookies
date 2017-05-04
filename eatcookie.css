@@ -1,0 +1,55 @@
+html, body {
+    height: 99%;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+	background-image: url("background.jpg");
+}
+
+div.wrapper {
+	min-height: 99%;
+	min-width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+h1 {
+	font-size: 80px;
+	position: fixed;
+	top: 5%;
+	display: inline-block;
+	background-color: grey;
+}
+
+button.sugar, button.chocolate, button.lemon {
+	width: 20%;
+	height: 400px;
+	background-color: white;
+	margin-top: 20%;
+	border: 4px solid black;
+	border-radius: 20%;
+	display: inline-block;
+	text-align: center;
+}
+
+button.chocolate {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+input {
+	border-style: none;
+	font-size: 30px;
+	width: 10%;
+	height: 10%;
+}
+
+img {
+	width: 50%;
+	height: 30%;
+	margin-top: 10%;
+}

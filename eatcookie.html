@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="eatcookie.css">
 </head>
 <body>
-	
+
+	<div class='wrapper'>
+		<h1>Click on a cookie to eat it, ya kook</h1>
+		<button class='sugar' onclick="modify_qty(1)">
+			<input id="more" value="0" />
+			<br>
+			<img src="shuga.jpg">
+		</button>
+		<button class='chocolate' onclick="modify_qty(1)">
+			<input id="more" value="0" />
+			<br>
+			<img src="choco.jpg">
+		</button>
+		<button class='lemon' onclick="modify_qty(1)">
+			<input id="more" value="0" />
+			<br>
+			<img src="lemony.jpg">
+		</button>
+	</div>
+
+	<script type="text/javascript" src="eatcookie.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="cookies.js"></script>
 	
